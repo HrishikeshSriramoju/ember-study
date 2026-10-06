@@ -6,30 +6,6 @@ Live app: https://ember-study-cb2ae.web.app
 
 Source repository: https://github.com/HrishikeshSriramoju/ember-study
 
-## Open in VS Code
-
-Open this `ember` folder using **File → Open Folder**. Node.js 22 or later is recommended. In the integrated terminal:
-
-```sh
-cp .env.example .env.local
-npm install
-npm run dev
-```
-
-Open the URL printed by Vite. VS Code tasks are included: **Terminal → Run Task → Ember: start**. The Firebase public web configuration is included in `.env.example`. Copy it to `.env.local` as shown above. These are public client configuration values, not an admin credential. `.env.local` is excluded from Git. The supplied download archive also includes `.env.local`.
-
-```sh
-npm test
-npm run build
-npm run preview
-```
-
-## Firebase Studio
-
-As of June 22, 2026, Firebase Studio no longer accepts new workspaces. Existing workspaces remain usable until March 22, 2027. See [Google's migration notice](https://firebase.google.com/docs/studio/migrating-project).
-
-The `.idx/dev.nix` configuration is included for an **existing** Code workspace. Copy the source into that workspace, run `npm install`, and use its web preview. New development can continue in VS Code with Firebase CLI. This project is a standard React app and is independent of the Studio editor.
-
 ## iPhone / iPad installation
 
 1. Open the live HTTPS URL in Safari.
