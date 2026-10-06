@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-05",
+  "engineTests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "browser": "Headless Chrome on macOS, desktop and 390px mobile viewport",
+  "browserFlowsPassed": [
+    "solo study session",
+    "distraction and focus resume",
+    "early finish without XP",
+    "results",
+    "private reflection",
+    "anonymous Firebase identity",
+    "friend code lookup and add",
+    "ghost publishing",
+    "friend ghost race",
+    "live room create",
+    "second-device room join",
+    "synchronized room start",
+    "pact creation",
+    "second-person pact join",
+    "both pact check-ins",
+    "15 XP pact bonuses",
+    "weekly cover token",
+    "weekly PNG export",
+    "HTTPS service worker installation",
+    "12 shell resources precached",
+    "offline reload",
+    "offline session",
+    "active timer reload recovery",
+    "first missed check-in after simulated 15-minute suspension",
+    "no horizontal overflow at 390px"
+  ],
+  "securityChecksPassed": [
+    "unauthenticated code lookup denied",
+    "other-user profile update denied",
+    "profile collection enumeration denied",
+    "nonparticipant room member access denied"
+  ],
+  "uncaughtBrowserErrors": 0,
+  "dependencyAudit": {
+    "vulnerabilities": 0
+  },
+  "physicalIPhoneTested": false,
+  "deployment": {
+    "projectId": "planning-with-ai-cb2ae",
+    "hostingSite": "ember-study-cb2ae",
+    "url": "https://ember-study-cb2ae.web.app"
+  }
+}

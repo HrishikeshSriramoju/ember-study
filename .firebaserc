@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "planning-with-ai-cb2ae"
+  },
+  "targets": {
+    "planning-with-ai-cb2ae": {
+      "hosting": {
+        "ember": [
+          "ember-study-cb2ae"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
